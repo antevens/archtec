@@ -1,3 +1,7 @@
+if not minetest.global_exists("techage") then
+	return
+end
+
 minetest.register_node("techage_cobble_generator:dry_ice", {
 	description = ("Dry ice"),
 	tiles = {"techage_cobble_generator_dry_ice.png"},

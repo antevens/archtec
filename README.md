@@ -1,6 +1,8 @@
 # archtec
 Archtec custom
 
+![](https://github.com/Archtec-io/archtec/workflows/test/badge.svg)
+
 # chat message colors
 error/important "#FF0000" (red)
 

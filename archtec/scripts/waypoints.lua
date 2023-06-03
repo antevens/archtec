@@ -1,6 +1,11 @@
 local waypoints = {}
 
 local pos = minetest.setting_get_pos("static_spawnpoint")
+
+if not pos then -- static spawnpoint not set
+    pos = vector.new()
+end
+
 pos.y = pos.y + 0.5
 
 local function waypoint_add(name)

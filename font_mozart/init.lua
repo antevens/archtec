@@ -4,6 +4,10 @@
 
 --]]
 
+if not minetest.global_exists("font_api") then
+	return
+end
+
 font_api.register_font(
 	'mozart',
 	{

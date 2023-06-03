@@ -42,6 +42,7 @@ read_globals = {
 	"anvil",
 	"unifieddyes",
 	"ItemStack",
+	"mtt",
 
 	string = {fields = {"split"}},
 	table = {fields = {"copy"}},
@@ -57,10 +58,6 @@ files["archtec_pvp/pvp.lua"] = {
 
 files["archtec/scripts/privs_cache.lua"] = {
 	globals = { "minetest.set_player_privs", "minetest.get_player_privs" },
-}
-
-files["archtec/scripts/item_drop.lua"] = {
-	read_globals = { "ItemStack" },
 }
 
 files["stamina/init.lua"] = {

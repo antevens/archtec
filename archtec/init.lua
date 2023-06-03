@@ -77,6 +77,10 @@ minetest.register_on_mods_loaded(function()
             -- dummy function
         end
     end
+    -- run after all mods are loaded
+    if minetest.get_modpath("mtt") then
+        dofile(modPath .. "/mtt.lua")
+    end
 end)
 
 local after = minetest.get_us_time()
